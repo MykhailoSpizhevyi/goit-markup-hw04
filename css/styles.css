@@ -149,7 +149,35 @@ ul {
     margin-left: 344px;
     padding-left: 0;
     
+    
 }
+.icon-mail::before {
+    display: inline-block;
+    content: "";
+    background-image: url(../images/mail.svg);
+    width: 16px;
+    height: 12px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+.icon-phone {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    align-items:center;
+    
+}
+.thumb {
+    display: flex;
+    background-color:rgba(245, 244, 250, 1);
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.icon-feature {
+    height: 120px;
+}
+
 
 
 .auth-nav .nav-item {
@@ -185,10 +213,20 @@ ul {
 
 .hero {
     background-color: var(--background-dark-color);
-    display: flex;
-    /* width: 1600px; */
+    display: flex; 
+    height: 600px;
+    max-width: 1600px; 
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+         url(../images/heroimg.jpg);
+    
+    background-repeat: no-repeat;
+    background-position:  center;
+    background-size: cover;
+    
     
 }
 
@@ -208,10 +246,24 @@ ul {
 }
 
 .hero-container {
+    
     text-align: center;
     margin-right: auto;
     margin-left: auto;
+    
 }
+ .overlay {
+    /* display: flex; */
+    /* height: 600px; */
+    /* max-width: 1600px; */
+    margin-left: auto;
+    margin-right: auto;
+    
+    /* background-image: url(../images/heroimg.jpg); */
+    
+    
+
+} 
 
 
 

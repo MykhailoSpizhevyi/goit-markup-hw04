@@ -27,8 +27,17 @@
             </nav>
             <!-- Контакты -->
             <ul class="auth-nav list">
-                <li class="nav-item"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-                <li class="nav-item"><a href="tel:+380961111111" class="link">+380961111111</a></li>
+                <li class="nav-item icon-mail"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+                <li class="nav-item icon-phone"><a href="tel:+380961111111" class="link">+380961111111</a>
+                    <div class="icon-smartphone">
+                        <svg width="10" height="16">
+                            <use
+                             href="./images/sprite.svg#icon-smartphone">   
+                            </use>
+                        </svg>
+
+                    </div>
+                </li>
             </ul>
         </div>
         
@@ -38,9 +47,11 @@
 <main>
         <!-- Блок герой -->
     <section class="hero">
-        <div class="hero-container">
+        <div class="overlay">
+            <div class="hero-container">
             <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
             <button type="button" class="hero-button">Замовити послугу</button>
+            </div>
         </div>
     </section>
 
@@ -50,19 +61,50 @@
         <h2 class="feature">Переваги</h2>
         <div class="feature-container">
             <ul class="feature-menu list">
+                    
+                    <li class="feature-item">
+                        <div class="thumb">
+                            <svg class="icon-feature" width="70" height="70">
+                                <use 
+                                    href="./images/sprite.svg#icon-antenna">
+                                </use>
+                            </svg>
+                        </div>
+                        
+                        <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
+                        <p class="text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+                        
+                    </li>
                 <li class="feature-item">
-                    <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
-                    <p class="text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
-                </li>
-                <li class="feature-item">
+                    <div class="thumb">
+                        <svg class="icon-feature" width="70" height="70">
+                            <use href="./images/sprite.svg#icon-clock">
+
+                            </use>
+                        </svg>
+                    </div>
                     <h3 class="title">ПУНКТУАЛЬНІСТЬ</h3>
                     <p class="text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                 </li>
                 <li class="feature-item">
+                    <div class="thumb">
+                        <svg class="icon-feature" width="70" height="70">
+                            <use href="./images/sprite.svg#icon-diagram">
+
+                            </use>
+                        </svg>
+                    </div>
                     <h3 class="title">ПЛАНУВАННЯ</h3>
                     <p class="text">Так само консультація з широким активом значною мірою зумовлює.</p>
                 </li>
                 <li class="feature-item">
+                    <div class="thumb">
+                        <svg class="icon-feature" width="70" height="70">
+                            <use href="./images/sprite.svg#icon-astronaut">
+
+                            </use>
+                        </svg>
+                    </div>
                     <h3 class="title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
                     <p class="text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                 </li>
